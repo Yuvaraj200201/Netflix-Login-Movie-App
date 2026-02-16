@@ -53,7 +53,7 @@ const Login = () => {
   return (
     <div
       id="container"
-      className="mx-auto bg-black md:bg-[url('/src/assets/bg.jpg')] md:bg-cover"
+      className="bg-black min-h-screen py-10 md:bg-[url('/src/assets/bg.jpg')] md:bg-contain"
     >
       <img
         id="title"
